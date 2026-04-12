@@ -19,3 +19,13 @@ window.onload = function () {
     }
   }
 }
+
+window.onload = function () {
+  pronoun.forEach(p => {
+    adj.forEach(a => {
+      noun.forEach(n => {
+        console.log(p + a + n + '.com');
+      });
+    });
+  });
+}
